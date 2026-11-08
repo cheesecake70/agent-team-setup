@@ -1,0 +1,11 @@
+{
+  "name": "agent-team-setup",
+  "owner": { "name": "cheesecake70" },
+  "plugins": [
+    {
+      "name": "agent-team-setup",
+      "source": "./",
+      "description": "Orchestrator / builder / critic agent team for any repo."
+    }
+  ]
+}
