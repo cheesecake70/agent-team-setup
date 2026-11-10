@@ -28,6 +28,7 @@ The complete spec is `{{SPEC_PATH}}`. Read the section for whatever you are buil
 - Nothing is committed without the `critic` agent returning PASS<!-- ui-only --> on screenshots at {{VIEWPORTS}}<!-- /ui-only -->.
 - **Never push, merge, rebase or deploy without an explicit instruction from {{OWNER}}.**
 - Never edit tests, fixtures or content to make a check pass; fix the code.
+- Haiku agents (Explore, log-reader, builder-lite) never edit source code.
 - Keep diffs small. One feature per commit.
 
 ## Commands

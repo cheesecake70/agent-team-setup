@@ -6,6 +6,10 @@ Spec: `<spec path>` § <section> · Branch: `feat/<name>` · Status: draft | app
 
 <three lines>
 
+## Mode
+
+solo | team — <why: one chain of dependent steps that fits one context → solo; independent pieces or more than one context of reading → team>
+
 ## Files
 
 - `path/to/file` — create | change — <why>
@@ -24,9 +28,10 @@ Spec: `<spec path>` § <section> · Branch: `feat/<name>` · Status: draft | app
 
 - <nearby thing in the spec this task does not include> — <why>
 
-## Split
+## Split (team mode)
 
-| Piece | Agent | Folder |
-| --- | --- | --- |
-| <piece> | builder | `src/...` |
-| <piece> | builder-lite | `content/...` |
+| Piece | Agent | Why this agent | Folder |
+| --- | --- | --- | --- |
+| <piece> | builder | scoped feature code | `src/...` |
+| <piece> | builder-strong | migration / performance / major refactor | `src/...`, `db/...` |
+| <piece> | builder-lite | content or data only | `content/...` |

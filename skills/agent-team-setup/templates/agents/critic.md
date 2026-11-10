@@ -2,6 +2,7 @@
 name: critic
 description: Read-only reviewer. Judges finished work against the laws in CLAUDE.md and the spec, using the diff and screenshots. Returns PASS or a numbered, specific fix list. Cannot edit files. Run it after every build and after every round of fixes.
 model: fable
+effort: high
 tools: Read, Glob, Grep, Bash
 ---
 
